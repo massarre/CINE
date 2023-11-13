@@ -1,31 +1,109 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('font/OriginalSurfer-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'safety';
+    src: url('font/Satisfy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background-color: black;
     color: white;
 }
 .affiche{
     width: 600px; height: 700px;
+    display: block;
+    margin: auto;
 }
 h2{
     color: #ffd700;
+    font-family: safety;
 }
 .page{
     color: red;
+    font-family: safety;
 }
 .real{
     width: 700px; height: 400px;
+    display: block;
+    margin: auto;
 }
 h1{
-    color: red;
+    color: orange;
+    text-align: center;
+    font-family: 'safety';
+}
+.logo{
+  display: block;
+  width: 30%;
+  margin: auto;
 }
 .margo{
-    width: 500px; height: 400px;  
+    width: 500px; height: 400px;
+    display: block;
+    margin: auto;  
 }
 .brad{
-    width: 600px; height: 400px;    
+    width: 600px; height: 400px; 
+    display: block;
+    margin: auto;   
 }
 .toby{
-    width: 600px; height: 400px;   
+    width: 600px; height: 400px;
+    display: block;
+    margin: auto;   
 }
 #message{
     height: 100px; width: 100px;
 }
+.notes{
+    font-size: 40%;
+}
+body{
+    font-family: 'OpenSans', sans-serif;
+}
+.presentation{
+    text-align: center;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar button {
+    background-color: rgb(255, 111, 0);
+    color :white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+.navbar a{
+    display: block;
+    color :rgb(165, 89, 42);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.navbar .content{
+    position: absolute;
+    background-color: rgb(127, 204, 255);
+    min-width: 100px;
+    display: none;
+}
+.navbar:hover .content{
+    display: block;
+}
+.navbar:hover button{
+    background-color: rgb(47, 102, 255);
+}
+.navbar a:hover{
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+
